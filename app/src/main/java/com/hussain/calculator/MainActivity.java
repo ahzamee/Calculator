@@ -39,9 +39,6 @@ public class MainActivity extends AppCompatActivity {
         builder.show();
     }
 
-        // A utility function to return precedence of a given operator
-        // Higher returned value means higher precedence
-
     int Prec(char ch) {
         switch (ch)
         {
